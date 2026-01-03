@@ -1,0 +1,11 @@
+# 忽略未公开的文件夹
+.obsidian/
+.trash/
+0-DASHBOARD/
+1-Input/
+2-Output/
+3-Tasks/
+4-Outcome/
+5-GENERAL/
+Anki/
+Img/
