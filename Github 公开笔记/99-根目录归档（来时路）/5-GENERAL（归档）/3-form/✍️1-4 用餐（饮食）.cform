@@ -1,0 +1,45 @@
+{
+  "id": "0ad5d138-cad2-49fc-8813-3de2d38d2d78",
+  "fields": [
+    {
+      "id": "76c21bac-aab7-4c12-8cf9-c6db6d56a7f4",
+      "label": "时间",
+      "type": "time",
+      "required": true,
+      "rows": 15,
+      "defaultValue": "00:10"
+    },
+    {
+      "id": "f3537509-6a21-4382-bc94-ef58fb481299",
+      "label": "数量",
+      "type": "number",
+      "defaultValue": "1"
+    },
+    {
+      "id": "56036d9e-d6c8-4b18-b347-527cd3613a1e",
+      "label": "图片",
+      "type": "text",
+      "defaultValue": "![["
+    },
+    {
+      "id": "0f11fe40-263f-4f19-b57b-8fdb66272f7a",
+      "label": "描述",
+      "type": "text"
+    }
+  ],
+  "title": "🕙 时间日志",
+  "actions": [
+    {
+      "id": "60d79da7-9fdd-4aea-bf9d-e626fdc4ce08",
+      "type": "insertText",
+      "targetFolder": "journal",
+      "fileName": "{{date:YYYY-MM-DD}}",
+      "position": "topBelowTitle",
+      "content": "- {{time}} ⌛️🥊15m{{@图片}}{{@描述}}+{{@数量}}次 #📊用餐（每日12次）⌛️饮食 【⏳{{@时间}}:00 】\n",
+      "heading": "###### 📊推进",
+      "createFileIfNotExist": true,
+      "filePath": "Documents/md/✍️/日记/{{date:YYYY-MM-DD}}.md",
+      "newFileTemplate": "Assistants/1 Templater/日记/✍️1.md"
+    }
+  ]
+}

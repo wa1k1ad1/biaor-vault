@@ -1,0 +1,95 @@
+{
+	"nodes":[
+		{"id":"1a377787b1bcb768","type":"group","x":-460,"y":440,"width":505,"height":560,"label":"成果"},
+		{"id":"854b0e70984ca0bf","type":"group","x":100,"y":440,"width":480,"height":560,"label":"发布"},
+		{"id":"c6ea003fede1688a","type":"group","x":-1120,"y":440,"width":420,"height":460,"label":"视频处理流程"},
+		{"id":"8455919c4a8ddc8e","type":"group","x":-170,"y":-80,"width":430,"height":360,"label":"输出"},
+		{"id":"c6cf7b22666cf5aa","type":"group","x":-170,"y":-440,"width":430,"height":280,"label":"输入（技巧）"},
+		{"id":"bb15208082ea99ba","type":"group","x":-150,"y":-15,"width":390,"height":250,"label":"脚本（内容）"},
+		{"id":"8dfb3e08c7062979","type":"group","x":-440,"y":480,"width":340,"height":120,"label":"视频"},
+		{"id":"8cce895c9ecff309","type":"group","x":-440,"y":640,"width":340,"height":120,"label":"文章"},
+		{
+			"id":"2235145980c7212f",
+			"type":"text",
+			"text":"拍摄/素材库、剪辑",
+			"styleAttributes":{},
+			"x":-415,
+			"y":500,
+			"width":205,
+			"height":60
+		},
+		{
+			"id":"662791c4a06178e9",
+			"type":"text",
+			"text":"内容格式化处理",
+			"styleAttributes":{},
+			"x":-420,
+			"y":660,
+			"width":260,
+			"height":60
+		},
+		{"id":"20962e3112bfd2db","type":"file","file":"2-Output/发布作品（自媒体）/拍摄工具-🗃️.md","x":-1100,"y":460,"width":380,"height":160},
+		{"id":"61004ff530e7379d","type":"file","file":"2-Output/发布作品（自媒体）/剪辑工具-🗃️.md","x":-1100,"y":680,"width":380,"height":200},
+		{"id":"222f19a58b7ec00a","type":"file","file":"Github 公开笔记/2-发布作品（自媒体）/👤账号管理.md","x":140,"y":480,"width":400,"height":400},
+		{"id":"64a64c4ad83d9c34","type":"file","file":"Github 公开笔记/2-发布作品（自媒体）/经验：🤏拿捏观众🗃️.md","x":-130,"y":-400,"width":350,"height":200},
+		{
+			"id":"a0c97e45acddc262",
+			"type":"text",
+			"text":"###### 素材库（💡灵感库）\n- [[0 闪念笔记（💡灵感库）]]\n- 来之各领域的积累产出",
+			"styleAttributes":{},
+			"x":-125,
+			"y":0,
+			"width":320,
+			"height":180
+		},
+		{"id":"5ccd26d4ecbdee99","type":"text","text":"拍摄剪辑","x":496,"y":-50,"width":250,"height":140},
+		{"id":"06634caba845269d","x":460,"y":-440,"width":250,"height":140,"type":"text","text":"主题"}
+	],
+	"edges":[
+		{
+			"id":"c408b4006b045e78",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"a0c97e45acddc262",
+			"fromSide":"bottom",
+			"toNode":"8dfb3e08c7062979",
+			"toSide":"right"
+		},
+		{
+			"id":"cac6b8af59370490",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"a0c97e45acddc262",
+			"fromSide":"bottom",
+			"toNode":"8cce895c9ecff309",
+			"toSide":"right"
+		},
+		{
+			"id":"0255f826892a7d67",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"2235145980c7212f",
+			"fromSide":"left",
+			"toNode":"c6ea003fede1688a",
+			"toSide":"right"
+		},
+		{
+			"id":"2f5a2b118dee40f2",
+			"styleAttributes":{"pathfindingMethod":"direct"},
+			"toFloating":false,
+			"fromNode":"1a377787b1bcb768",
+			"fromSide":"right",
+			"toNode":"854b0e70984ca0bf",
+			"toSide":"left"
+		},
+		{"id":"3e1005367d9fe925","fromNode":"5ccd26d4ecbdee99","fromSide":"bottom","toNode":"854b0e70984ca0bf","toSide":"top"},
+		{"id":"72c7a44b3ce2ae7e","fromNode":"06634caba845269d","fromSide":"bottom","toNode":"5ccd26d4ecbdee99","toSide":"top"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

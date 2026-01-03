@@ -1,0 +1,114 @@
+{
+  "id": "153d9be7-63ef-4c98-a301-34b975f21198",
+  "fields": [
+    {
+      "id": "4e165292-ee49-4788-b20f-2861286479da",
+      "label": "任务描述",
+      "type": "text",
+      "defaultValue": "",
+      "required": true
+    },
+    {
+      "id": "432104f8-ae80-47a6-b9a5-888992793837",
+      "label": "进行日期",
+      "type": "date"
+    },
+    {
+      "id": "0841f08d-89c2-4adc-97ec-e29be7a34824",
+      "label": "进行时间",
+      "type": "time",
+      "defaultValue": ""
+    },
+    {
+      "id": "283997c1-3753-45c6-926d-e3b653c6ad17",
+      "label": "限制时间",
+      "type": "text",
+      "defaultValue": "25m"
+    },
+    {
+      "id": "15133055-9c1d-41dd-ad6b-aa30e11d21ab",
+      "label": "状态",
+      "type": "radio",
+      "options": [
+        {
+          "id": "61fceaba-32ed-4920-8211-bc7414683f2a",
+          "label": "/",
+          "value": ""
+        },
+        {
+          "id": "211af507-95a5-49c7-b03d-b6e01ca38808",
+          "label": "i",
+          "value": ""
+        },
+        {
+          "id": "8a3c1d88-65f6-4319-892b-3400cbfb84d2",
+          "label": "<",
+          "value": ""
+        },
+        {
+          "id": "36efb94d-2e5a-4f7c-afd0-68eeb848a008",
+          "label": " ",
+          "value": ""
+        },
+        {
+          "id": "0163f084-47dc-499d-94f5-e09d96a8c7d3",
+          "label": ">",
+          "value": ""
+        }
+      ],
+      "enableDescription": true,
+      "description": "1.[/]⚡️进行中 2.[i]💡准备中 3.[<]📆等待中 4.[ ]⭕️待定中 5.[>]🐸托管中",
+      "defaultValue": " "
+    },
+    {
+      "id": "104a56eb-30fc-420f-a09e-bf1fccaaa1aa",
+      "label": "优先级",
+      "type": "radio",
+      "options": [
+        {
+          "id": "c9ded090-dafb-41a5-b75a-ca84520df3d7",
+          "label": "🔺",
+          "value": ""
+        },
+        {
+          "id": "2a24cea6-eac9-4cb4-b24c-a708bdfb85c7",
+          "label": "⏫",
+          "value": ""
+        },
+        {
+          "id": "47aa9230-5577-440e-a1ef-41e918f50cc6",
+          "label": "🔼",
+          "value": ""
+        },
+        {
+          "id": "95f92887-268b-43bb-8c6c-56692388151a",
+          "label": "🔽",
+          "value": ""
+        },
+        {
+          "id": "f1f2cc50-a317-444a-9bde-6d694a40ae92",
+          "label": "⏬",
+          "value": ""
+        }
+      ],
+      "enableDescription": true,
+      "description": "1.🔺最高级 2.⏫高级 3.🔼中级 4.🔽低级 5.⏬最低级",
+      "defaultValue": "⏬"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ed6d2bb7-9caf-45f5-919a-c77577a1773b",
+      "type": "insertText",
+      "targetFolder": "",
+      "fileName": "",
+      "content": "- [{{@状态}}] {{date: YYMMDD-}}{{@任务描述}} [duration:: {{@限制时间}}]  [startTime:: {{@进行时间}}] {{@优先级}} 📅 {{@进行日期}}",
+      "filePath": "Documents/md/✍️/日记/{{date: YYYY-MM-DD}}.md",
+      "contentTemplateSource": "text",
+      "suggestSource": "list",
+      "position": "topBelowTitle",
+      "heading": "###### 📅今日日志"
+    }
+  ],
+  "autoSubmit": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "7fe3f8e7-d64f-4036-94db-1234387ef489",
+  "fields": [],
+  "actions": [
+    {
+      "id": "e4c96569-0ecc-45e9-bf45-f4846bca12fa",
+      "type": "createFile",
+      "targetFolder": "",
+      "fileName": "",
+      "openPageIn": "tab",
+      "filePath": "Documents/md/{{date:YYMMDD}}-🗃️.md",
+      "contentTemplateSource": "file",
+      "templateFile": "Assistants/1 Templater/area-资料-🗃️版.md",
+      "condition": {
+        "id": "4ce26065-7f7b-4d3e-a84f-0b0ff0afee63",
+        "type": "group",
+        "operator": "and",
+        "conditions": []
+      }
+    }
+  ],
+  "autoSubmit": true
+}

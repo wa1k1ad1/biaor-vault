@@ -1,0 +1,24 @@
+{
+  "id": "9ce9ecf9-1968-45b8-858e-76bc39226485",
+  "fields": [
+    {
+      "id": "297dff18-bf3e-49d4-a818-a1862488795c",
+      "label": "内容",
+      "type": "textarea",
+      "defaultValue": ""
+    }
+  ],
+  "actions": [
+    {
+      "id": "3915c42a-18d0-4e67-b2f6-c78b342893d7",
+      "type": "insertText",
+      "targetFolder": "",
+      "fileName": "",
+      "filePath": "Documents/md/来时路（归档）/年度规划与里程碑🏆.md",
+      "position": "topBelowTitle",
+      "heading": "### 🎈未来记录",
+      "content": "- {{date: YYMMDD-}}{{@内容}}"
+    }
+  ],
+  "autoSubmit": false
+}

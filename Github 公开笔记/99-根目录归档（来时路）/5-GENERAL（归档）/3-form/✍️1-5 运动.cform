@@ -1,0 +1,44 @@
+{
+  "id": "0ad5d138-cad2-49fc-8813-3de2d38d2d78",
+  "fields": [
+    {
+      "id": "76c21bac-aab7-4c12-8cf9-c6db6d56a7f4",
+      "label": "时间",
+      "type": "time",
+      "required": true,
+      "rows": 15,
+      "defaultValue": "00:20"
+    },
+    {
+      "id": "f3537509-6a21-4382-bc94-ef58fb481299",
+      "label": "数量",
+      "type": "number"
+    },
+    {
+      "id": "75bacadc-5a19-490c-886a-2cd1f55dc90d",
+      "label": "图片",
+      "type": "text",
+      "defaultValue": "![["
+    },
+    {
+      "id": "a84a351e-d77f-488a-b75f-e89c9904d655",
+      "label": "描述",
+      "type": "textarea"
+    }
+  ],
+  "title": "🕙 时间日志",
+  "actions": [
+    {
+      "id": "60d79da7-9fdd-4aea-bf9d-e626fdc4ce08",
+      "type": "insertText",
+      "targetFolder": "journal",
+      "fileName": "{{date:YYYY-MM-DD}}",
+      "position": "topBelowTitle",
+      "content": "- {{time}} ⌛️🥊25m{{@图片}}{{@描述}}+{{@数量}}次 #📊运动（每日12次）⌛️运动 【⏳{{@时间}}:00 】\n",
+      "heading": "###### 📊推进",
+      "createFileIfNotExist": true,
+      "filePath": "Documents/md/✍️/日记/{{date:YYYY-MM-DD}}.md",
+      "newFileTemplate": "Assistants/1 Templater/日记/✍️1.md"
+    }
+  ]
+}

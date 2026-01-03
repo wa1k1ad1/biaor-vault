@@ -1,0 +1,33 @@
+{
+  "id": "0ad5d138-cad2-49fc-8813-3de2d38d2d78",
+  "fields": [
+    {
+      "id": "1e6643cb-8303-48f3-8dc4-ae81b7b072f9",
+      "label": "图片",
+      "type": "text",
+      "defaultValue": "![["
+    },
+    {
+      "id": "76c21bac-aab7-4c12-8cf9-c6db6d56a7f4",
+      "label": "内容",
+      "type": "textarea",
+      "required": true,
+      "rows": 15
+    }
+  ],
+  "title": "🕙 时间日志",
+  "actions": [
+    {
+      "id": "60d79da7-9fdd-4aea-bf9d-e626fdc4ce08",
+      "type": "insertText",
+      "targetFolder": "journal",
+      "fileName": "{{date:YYYY-MM-DD}}",
+      "position": "topBelowTitle",
+      "content": "反思::[[{{date}}]]{{time}} {{@图片}}❓{{@内容}}\n",
+      "heading": "##### 反思",
+      "createFileIfNotExist": true,
+      "filePath": "Documents/md/✍️/日记/{{date:YYYY-MM-DD}}.md",
+      "newFileTemplate": "Assistants/1 Templater/日记/✍️1.md"
+    }
+  ]
+}
