@@ -1,0 +1,242 @@
+{
+  "components": [
+    {
+      "id": "c3095560-ce5b-46a3-ab61-f9bdc5b6aaa7",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-04T14:17:29.741Z",
+      "updateAt": "2026-01-04T14:21:53.822Z",
+      "components": [
+        {
+          "componentId": "a61dcae1-fdc8-478c-b070-c54a46a2ac51"
+        },
+        {
+          "componentId": "f943b7da-2ae0-4940-83ef-5f6422e9da34"
+        },
+        {
+          "componentId": "3d8accc0-3205-450b-b770-8175ae4eb693"
+        }
+      ],
+      "layoutType": "list",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "a61dcae1-fdc8-478c-b070-c54a46a2ac51",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-04T14:19:10.556Z",
+      "updateAt": "2026-01-04T14:39:00.252Z",
+      "viewType": "table",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "items": [],
+        "pinFiltersToMenuBar": false,
+        "hideHeaderMenu": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "title": "🔍常识",
+      "filter": {
+        "id": "52831155-b48e-4894-a668-100127b77ab0",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "55eb8c5a-6fed-401c-9707-d06fc709fa91",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.basename}",
+            "value": "常识",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "924616a5-a4db-43a6-a292-34ab9ea6ddb9",
+            "property": "${file.basename}",
+            "direction": "asc",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "3d8accc0-3205-450b-b770-8175ae4eb693",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-04T14:19:10.556Z",
+      "updateAt": "2026-01-04T14:38:54.523Z",
+      "viewType": "table",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "items": [],
+        "pinFiltersToMenuBar": false,
+        "hideHeaderMenu": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "title": "🔍？",
+      "filter": {
+        "id": "52831155-b48e-4894-a668-100127b77ab0",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "6946aa5d-5cfd-48e1-b4d1-1e5221314170",
+            "type": "filter",
+            "operator": "contains",
+            "property": "area",
+            "value": "[[1-编程语言-功能开发]]",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "533ae102-3145-4da5-8677-b1df8ef22026",
+            "property": "${file.basename}",
+            "direction": "asc",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "f943b7da-2ae0-4940-83ef-5f6422e9da34",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-01-04T14:19:10.556Z",
+      "updateAt": "2026-01-04T14:39:03.621Z",
+      "viewType": "table",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "items": [],
+        "pinFiltersToMenuBar": false,
+        "hideHeaderMenu": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "title": "🔍Delphi",
+      "filter": {
+        "id": "52831155-b48e-4894-a668-100127b77ab0",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "676a9bda-6dc4-4027-b146-6b7f3bbe9250",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.basename}",
+            "value": "Delphi",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "ab948a4e-3432-48f6-abb1-0625f1183335",
+            "property": "${file.basename}",
+            "direction": "asc",
+            "disabled": false
+          }
+        ]
+      }
+    }
+  ],
+  "rootComponentId": "c3095560-ce5b-46a3-ab61-f9bdc5b6aaa7",
+  "version": 3.1
+}

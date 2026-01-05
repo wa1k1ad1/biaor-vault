@@ -10,13 +10,13 @@ archived: true
   - 目前英语的话，用 anki 语法的部分填空
 相关链接:
   - "[[笔记复盘-梦寐以求的复盘技能-250811]]"
-  - "[[@笔记复盘-APP：记忆SuperMemo-AI笔记]]"
+  - "[[@PKM-笔记复盘-APP：记忆SuperMemo-AI笔记]]"
 笔记内容:
   - 低级
 ---
 ##### 输入
 ###### 参考
-- AI 笔记：[[@笔记复盘-APP：记忆SuperMemo-AI笔记]]
+- AI 笔记：[[@PKM-笔记复盘-APP：记忆SuperMemo-AI笔记]]
 - [Supermemo小指南（2025.5.3）](https://zhuanlan.zhihu.com/p/27405031669)
 - [渐进学习专栏导读（SuperMemo 使用教程）](https://zhuanlan.zhihu.com/p/374403541)
 	- [SuperMemo 渐进学习大型指北](https://www.kancloud.cn/ankigaokao/incremental_learning#/catalog)
