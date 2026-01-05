@@ -1,61 +1,316 @@
 {
 	"nodes":[
-		{"id":"605f0a26d758ab36","x":-180,"y":-280,"width":1295,"height":2740,"type":"group","label":"插件卡顿问题解决"},
+		{"id":"605f0a26d758ab36","type":"group","x":-180,"y":-280,"width":1295,"height":2740,"label":"插件卡顿问题解决"},
+		{"id":"2230004519042321","type":"group","x":-2180,"y":-280,"width":2000,"height":1120,"label":"插件为了编程而存在"},
 		{"id":"52ac9f954e3356fd","type":"group","x":2079,"y":1098,"width":1860,"height":1088,"label":"属性"},
-		{"id":"ceb6f11c8d20b2d0","type":"group","x":4199,"y":1098,"width":980,"height":460,"label":"标签"},
+		{"id":"ceb6f11c8d20b2d0","type":"group","x":3939,"y":1098,"width":980,"height":460,"label":"标签"},
+		{"id":"0498d7d71bca418c","type":"group","x":-2020,"y":88,"width":780,"height":332,"label":"效率"},
+		{"id":"782718b6b41b6e63","type":"group","x":-2150,"y":510,"width":830,"height":250,"label":"排除"},
 		{"id":"8c15be22fbdaedb0","type":"group","x":3339,"y":1418,"width":290,"height":440,"label":"个人账号"},
+		{"id":"9115892059fbe28f","type":"group","x":-570,"y":88,"width":330,"height":372,"label":"副"},
 		{"id":"6bf9c500da5889af","type":"group","x":2479,"y":1418,"width":280,"height":409,"label":"项目笔记"},
-		{"id":"906283eb55756f49","type":"group","x":4519,"y":1258,"width":320,"height":260,"label":"中间别忘了：休息、运动（增强体能）"},
+		{"id":"cb7c68c31cd03570","type":"group","x":-980,"y":510,"width":320,"height":310,"label":"展示"},
+		{"id":"1396be17df42a896","type":"group","x":-980,"y":88,"width":320,"height":285,"label":"主"},
+		{"id":"906283eb55756f49","type":"group","x":4259,"y":1258,"width":320,"height":260,"label":"中间别忘了：休息、运动（增强体能）"},
 		{"id":"bbcfa6327114954b","type":"group","x":3099,"y":1110,"width":300,"height":259,"label":"自带的"},
 		{"id":"dfb588501a9b08a5","type":"group","x":3049,"y":1418,"width":290,"height":260,"label":"资料笔记"},
 		{"id":"c38f2bfc5bc71451","type":"group","x":3629,"y":1418,"width":290,"height":260,"label":"文献"},
 		{"id":"b35656ba48546469","type":"group","x":3049,"y":1818,"width":290,"height":260,"label":"副本，一般很少用"},
 		{"id":"b930caaf31e8f554","type":"group","x":2759,"y":1818,"width":290,"height":260,"label":"扩展，一般很少用"},
 		{"id":"6c8a16f31810179d","type":"group","x":2759,"y":1110,"width":290,"height":259,"label":"未命名组"},
-		{"id":"9c04a40e05daff0d","type":"group","x":4879,"y":1258,"width":300,"height":180,"label":"输入"},
-		{"id":"9bed922fc87f71aa","type":"group","x":4199,"y":1258,"width":300,"height":180,"label":"输出"},
+		{"id":"9c04a40e05daff0d","type":"group","x":4619,"y":1258,"width":300,"height":180,"label":"输入"},
+		{"id":"9bed922fc87f71aa","type":"group","x":3939,"y":1258,"width":300,"height":180,"label":"输出"},
 		{"id":"dfa24ef00f434fbc","type":"group","x":2099,"y":1418,"width":220,"height":89,"label":"领域目标笔记"},
-		{"id":"d1c833b1bf039d74","type":"text","text":"面板美化","x":-160,"y":-75,"width":180,"height":50},
-		{"id":"66cc2ca3cceed6b1","type":"text","text":"日历面板","x":-160,"y":31,"width":180,"height":50},
-		{"id":"f757f95281e0a0e8","type":"text","text":"**LifeOS Pro**","x":200,"y":31,"width":185,"height":50},
-		{"id":"47e49fd7dbf3a924","type":"text","text":"护眼主题加粗插件：Shiba Inu主题搭配**Style Settings**插件","x":200,"y":-75,"width":680,"height":50},
-		{"id":"22b9dfecc1118b95","type":"text","text":"日程安排","x":-160,"y":120,"width":180,"height":50},
-		{"id":"8bc9b3fd31156bee","type":"text","text":"- 日程安排：**Day Planner**\n\t- 日记插入时间：**TimeStamper**\n\t- 执行任务计时：**Text Block Timer**","x":200,"y":120,"width":500,"height":160},
-		{"id":"15f9497305db0e79","type":"text","text":"- 任务-鱼先生4个\n\t- 任务提取：**tasks**(搭配**Day Planner**)\n\t- 载入代码：**Meta Bind**\n\t- 面板美化：**admonition**\n\t- 任务分栏：**columns**","x":575,"y":360,"width":520,"height":260},
-		{"id":"2dc0cef1f7d535cc","type":"text","text":"任务四象限/优先级","x":215,"y":465,"width":280,"height":50},
-		{"id":"7f85284472b1270b","type":"text","text":"汇总","x":-160,"y":430,"width":125,"height":60},
-		{"id":"12663ebc77baedc7","type":"text","text":"- 模板：**Templater**\n- 表单：**Form Flow**、**QuickAdd**\n- AI:**Copilot**\n- 粘贴网址，提取网址链接标题：**Auto Link Title**\n- 格式化双链和图片大小：**Linter**","x":575,"y":710,"width":500,"height":320},
-		{"id":"a9e4f6eef264cbc3","type":"text","text":"笔记前：编辑","x":-160,"y":700,"width":250,"height":60},
-		{"id":"6b484444e47d1079","type":"text","text":"高效","x":215,"y":760,"width":125,"height":60},
-		{"id":"68b4c14283f7092f","type":"text","text":"- 增强\n\t- **Content Protection**（增强，🔗导入反向链接、支持出链）\n\t- **Advanced Canvas**（增强图形）\n\t- 第三方白板：**Excalidraw**（顺滑）\n\t- **Tag Wrangler**\n\t- 标题自动编号：**Number Headings**\n\t\t- 第三方大纲：**Quiet Outline**","x":575,"y":1100,"width":500,"height":260},
-		{"id":"0e9f8e8b589fac78","type":"text","text":"增强","x":215,"y":1050,"width":155,"height":50},
-		{"id":"c13ad4c1aead60e2","type":"text","text":"视频笔记：**Media Extended**","x":575,"y":1440,"width":345,"height":50},
-		{"id":"4369bbc9cea238fb","type":"text","text":"笔记后：预览","x":-160,"y":1460,"width":200,"height":50},
-		{"id":"4aa0dcd92f197f13","type":"text","text":"md笔记置顶背景：**Pixel Banner**","x":173,"y":1524,"width":402,"height":56},
-		{"id":"f6c118f0d60de82e","type":"text","text":"打开浏览：\n\t- 最近：**Recent file**\n\t- 次数：**View Count**","x":173,"y":1613,"width":260,"height":147},
-		{"id":"4899dd1e97fba414","type":"text","text":"**Commander**触屏快捷方式","x":215,"y":-190,"width":340,"height":50},
-		{"id":"5dac0b8a7604e6ec","type":"text","text":"手机版命令面板","x":-160,"y":-200,"width":250,"height":60},
-		{"id":"457cb8252d01f539","type":"text","text":"数据汇总：","x":-160,"y":1920,"width":250,"height":60},
-		{"id":"70c97298409007d7","type":"text","text":"- 数据汇总：\n\t- 文件：\n\t\t- **Components**\n\t- 全能：**Dataview**\n\t\t- **Charts**（视图）\n\t\t- **JS Engine**（执行 JavaScript 代码）","x":173,"y":1920,"width":902,"height":320},
-		{"id":"33b1084ae97f02c7","type":"text","text":"- 电脑缺失：\n\t- 点击图片放大：**Image Toolkit**","x":173,"y":2340,"width":467,"height":100},
 		{
-			"id":"b80d5b007ef8bc9b",
+			"id":"b2ee03be4393885c",
 			"type":"text",
-			"text":"#📊产出（每日12个）⌛️工作",
-			"styleAttributes":{},
-			"x":4219,
-			"y":1358,
-			"width":260,
+			"text":"🧩 大纲",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-945,
+			"y":118,
+			"width":250,
 			"height":60
 		},
+		{
+			"id":"35d2577022376ba9",
+			"type":"text",
+			"text":"🧩 幻灯片",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-945,
+			"y":530,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"9e9f596058f2cce4",
+			"type":"text",
+			"text":"🧩 数据库🟩",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-945,
+			"y":625,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"b9925e447569c30f",
+			"type":"text",
+			"text":"🧩 文件列表",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-945,
+			"y":685,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"32477486160631fa",
+			"type":"text",
+			"text":"🧩 书签",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-945,
+			"y":745,
+			"width":250,
+			"height":60
+		},
+		{"id":"4ba0fa426b74dc7b","type":"text","text":"第三方插件开启：\n- 光标跳转：Go To Heading、Navigate Cursor History\n- 数据库：Components、dataview（当前目录）\n- Meta Bind\n- 英语Language Learner、日程Time Ruler、quickadd","x":-1190,"y":1000,"width":750,"height":240},
+		{
+			"id":"db13714490bbff65",
+			"type":"text",
+			"text":"🧩 标签",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-945,
+			"y":253,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"a5a69d9634ecdbcd",
+			"type":"text",
+			"text":"🧩 脚注视图",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-945,
+			"y":193,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"6cd7725c0f51e6ce",
+			"type":"text",
+			"text":"md",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-1390,
+			"y":10,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"d5c52a364c965399",
+			"type":"text",
+			"text":"🧩 搜索",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-1640,
+			"y":-89,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"64c7e8ab75c54375",
+			"type":"text",
+			"text":"🧩 漫游笔记",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-1640,
+			"y":-149,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"d403cfaa42f379fb",
+			"type":"text",
+			"text":"🧩 工作区",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-1500,
+			"y":118,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"ca2fd5a0146091b9",
+			"type":"text",
+			"text":"🧩 发布",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-1620,
+			"y":530,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"d5416ded1b051d19",
+			"type":"text",
+			"text":"🧩 日记",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-1620,
+			"y":620,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"a834274bb43daf8d",
+			"type":"text",
+			"text":"🧩 网页",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-1620,
+			"y":680,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"7ba41c97eb5c96a5",
+			"type":"text",
+			"text":"🧩 文件恢复",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-1870,
+			"y":531,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"fdaea36a212b559b",
+			"type":"text",
+			"text":"🧩 模板",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-1870,
+			"y":620,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"933ef8bcedf1b221",
+			"type":"text",
+			"text":"🧩 markdown 格式转换器",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-1870,
+			"y":680,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"f3613ece9d78c2be",
+			"type":"text",
+			"text":"🧩 快速切换",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-2000,
+			"y":118,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"33f6985eff82a35f",
+			"type":"text",
+			"text":"🧩 命令面板",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-1750,
+			"y":118,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"a68c347736e54e17",
+			"type":"text",
+			"text":"🧩 canvas",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-1890,
+			"y":10,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"6f0ebd52d16aa794",
+			"type":"text",
+			"text":"🧩 同步",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-2120,
+			"y":530,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"6af54ae74aaad624",
+			"type":"text",
+			"text":"🧩 时间戳笔记生成器",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-2120,
+			"y":620,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"e7887caafbcfcd54",
+			"type":"text",
+			"text":"🧩 录音机",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-2120,
+			"y":680,
+			"width":250,
+			"height":60
+		},
+		{"id":"90a4a0aadeb3c00c","type":"text","text":"核心插件开启：\n- 笔记：大纲、脚注、canvas\n- 效率输入：笔记重组、斜杠命令\n- 效率：快速切换、命令面板、工作区、字数统计（看代码量）、页面预览\n- 文件列表、搜索","x":-1929,"y":1017,"width":749,"height":263},
 		{
 			"id":"0e07dd72e446560b",
 			"type":"text",
 			"text":"#📊运动（每日12次）⌛️运动",
 			"styleAttributes":{},
-			"x":4549,
+			"x":4289,
 			"y":1358,
 			"width":260,
+			"height":60
+		},
+		{
+			"id":"2c477697cdb4abeb",
+			"type":"text",
+			"text":"#📊休息⌛️休息",
+			"styleAttributes":{},
+			"x":4289,
+			"y":1278,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"b80d5b007ef8bc9b",
+			"type":"text",
+			"text":"#📊产出（每日12个）⌛️工作",
+			"styleAttributes":{},
+			"x":3959,
+			"y":1358,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"532548c8cc744136",
+			"type":"text",
+			"text":"🧩 页面预览",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-2000,
+			"y":330,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"9e4ff9fa02317a67",
+			"type":"text",
+			"text":"🧩 笔记重组",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-2000,
+			"y":253,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"cf531e73e31f5302",
+			"type":"text",
+			"text":"🧩 斜杠命令",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-2000,
+			"y":193,
+			"width":250,
 			"height":60
 		},
 		{
@@ -63,7 +318,7 @@
 			"type":"text",
 			"text":"#📊用餐（每日12次）⌛️饮食",
 			"styleAttributes":{},
-			"x":4549,
+			"x":4289,
 			"y":1438,
 			"width":260,
 			"height":60
@@ -99,61 +354,11 @@
 			"height":60
 		},
 		{
-			"id":"03baa81487511c19",
-			"type":"text",
-			"text":"领域目标",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2494,
-			"y":1438,
-			"width":250,
-			"height":60
-		},
-		{
-			"id":"163c4faf049e66bf",
-			"type":"text",
-			"text":"status",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2494,
-			"y":1507,
-			"width":250,
-			"height":60
-		},
-		{
-			"id":"9783b4a6bc95d834",
-			"type":"text",
-			"text":"进行日期",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2494,
-			"y":1587,
-			"width":250,
-			"height":60
-		},
-		{
-			"id":"78c418d478c02f4b",
-			"type":"text",
-			"text":"截止日期",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2494,
-			"y":1667,
-			"width":250,
-			"height":60
-		},
-		{
 			"id":"a751093440c0b4b8",
 			"type":"text",
 			"text":"#📊输出（每日12次）⌛️学习",
 			"styleAttributes":{},
-			"x":4219,
-			"y":1278,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"2c477697cdb4abeb",
-			"type":"text",
-			"text":"#📊休息⌛️休息",
-			"styleAttributes":{},
-			"x":4549,
+			"x":3959,
 			"y":1278,
 			"width":260,
 			"height":60
@@ -163,7 +368,7 @@
 			"type":"text",
 			"text":"#📊资讯（每日12条）⌛️学习",
 			"styleAttributes":{},
-			"x":4899,
+			"x":4639,
 			"y":1278,
 			"width":260,
 			"height":60
@@ -189,26 +394,6 @@
 			"height":60
 		},
 		{
-			"id":"0a7129af732cc850",
-			"type":"text",
-			"text":"模块资源（关联项目）",
-			"styleAttributes":{"textAlign":"center"},
-			"x":3069,
-			"y":1438,
-			"width":250,
-			"height":60
-		},
-		{
-			"id":"dcad5509878e851b",
-			"type":"text",
-			"text":"支援项目",
-			"styleAttributes":{"textAlign":"center"},
-			"x":3069,
-			"y":1598,
-			"width":250,
-			"height":60
-		},
-		{
 			"id":"55057869df02733c",
 			"type":"text",
 			"text":"笔记内容",
@@ -229,11 +414,11 @@
 			"height":60
 		},
 		{
-			"id":"9561616cf5a65967",
+			"id":"dcad5509878e851b",
 			"type":"text",
-			"text":"🔑",
+			"text":"支援项目",
 			"styleAttributes":{"textAlign":"center"},
-			"x":3349,
+			"x":3069,
 			"y":1598,
 			"width":250,
 			"height":60
@@ -249,6 +434,36 @@
 			"height":60
 		},
 		{
+			"id":"9561616cf5a65967",
+			"type":"text",
+			"text":"🔑",
+			"styleAttributes":{"textAlign":"center"},
+			"x":3349,
+			"y":1598,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"163c4faf049e66bf",
+			"type":"text",
+			"text":"status",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2494,
+			"y":1507,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"9783b4a6bc95d834",
+			"type":"text",
+			"text":"进行日期",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2494,
+			"y":1587,
+			"width":250,
+			"height":60
+		},
+		{
 			"id":"d44ce6cd42370beb",
 			"type":"text",
 			"text":"系列",
@@ -259,52 +474,32 @@
 			"height":60
 		},
 		{
-			"id":"187438a6ba3a0a35",
+			"id":"bd5b4ab58e949c7f",
 			"type":"text",
-			"text":"area",
+			"text":"封面",
 			"styleAttributes":{"textAlign":"center"},
 			"x":2779,
-			"y":1210,
+			"y":2098,
 			"width":250,
 			"height":60
 		},
 		{
-			"id":"4b59d610db501d00",
+			"id":"78c418d478c02f4b",
 			"type":"text",
-			"text":"aliases",
+			"text":"截止日期",
 			"styleAttributes":{"textAlign":"center"},
-			"x":3119,
-			"y":1130,
+			"x":2494,
+			"y":1667,
 			"width":250,
 			"height":60
 		},
 		{
-			"id":"99f4c08f15472da7",
+			"id":"86ac33ad12d3d65b",
 			"type":"text",
-			"text":"笔记类型",
+			"text":"完成日期",
 			"styleAttributes":{"textAlign":"center"},
-			"x":2779,
-			"y":1289,
-			"width":250,
-			"height":60
-		},
-		{
-			"id":"23f94e7e457ffc0b",
-			"type":"text",
-			"text":"tags",
-			"styleAttributes":{"textAlign":"center"},
-			"x":3119,
-			"y":1210,
-			"width":250,
-			"height":60
-		},
-		{
-			"id":"a94b91adef2f18e5",
-			"type":"text",
-			"text":"cssclasses",
-			"styleAttributes":{"textAlign":"center"},
-			"x":3119,
-			"y":1289,
+			"x":2494,
+			"y":1747,
 			"width":250,
 			"height":60
 		},
@@ -329,6 +524,50 @@
 			"height":60
 		},
 		{
+			"id":"7e5f25167f0cd7cc",
+			"type":"text",
+			"text":"下联",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2779,
+			"y":1998,
+			"width":250,
+			"height":60
+		},
+		{"id":"4369bbc9cea238fb","type":"text","text":"笔记后：预览","x":-160,"y":1460,"width":200,"height":50},
+		{"id":"4aa0dcd92f197f13","type":"text","text":"md笔记置顶背景：**Pixel Banner**","x":173,"y":1524,"width":402,"height":56},
+		{"id":"f6c118f0d60de82e","type":"text","text":"打开浏览：\n\t- 最近：**Recent file**\n\t- 次数：**View Count**","x":173,"y":1613,"width":260,"height":147},
+		{"id":"457cb8252d01f539","type":"text","text":"数据汇总：","x":-160,"y":1920,"width":250,"height":60},
+		{
+			"id":"187438a6ba3a0a35",
+			"type":"text",
+			"text":"area",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2779,
+			"y":1210,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"99f4c08f15472da7",
+			"type":"text",
+			"text":"笔记类型",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2779,
+			"y":1289,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"0a7129af732cc850",
+			"type":"text",
+			"text":"模块资源（关联项目）",
+			"styleAttributes":{"textAlign":"center"},
+			"x":3069,
+			"y":1438,
+			"width":250,
+			"height":60
+		},
+		{
 			"id":"862303550df525c3",
 			"type":"text",
 			"text":"archived",
@@ -339,6 +578,47 @@
 			"height":60
 		},
 		{
+			"id":"4b59d610db501d00",
+			"type":"text",
+			"text":"aliases",
+			"styleAttributes":{"textAlign":"center"},
+			"x":3119,
+			"y":1130,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"23f94e7e457ffc0b",
+			"type":"text",
+			"text":"tags",
+			"styleAttributes":{"textAlign":"center"},
+			"x":3119,
+			"y":1210,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"a94b91adef2f18e5",
+			"type":"text",
+			"text":"cssclasses",
+			"styleAttributes":{"textAlign":"center"},
+			"x":3119,
+			"y":1289,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"03baa81487511c19",
+			"type":"text",
+			"text":"领域目标",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2494,
+			"y":1438,
+			"width":250,
+			"height":60
+		},
+		{"id":"6b484444e47d1079","type":"text","text":"高效","x":215,"y":760,"width":125,"height":60},
+		{
 			"id":"86251d829b524a82",
 			"type":"text",
 			"text":"🎯领域目标，定期任务",
@@ -346,26 +626,6 @@
 			"x":2099,
 			"y":1418,
 			"width":220,
-			"height":60
-		},
-		{
-			"id":"bd5b4ab58e949c7f",
-			"type":"text",
-			"text":"封面",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2779,
-			"y":2098,
-			"width":250,
-			"height":60
-		},
-		{
-			"id":"7e5f25167f0cd7cc",
-			"type":"text",
-			"text":"下联",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2779,
-			"y":1998,
-			"width":250,
 			"height":60
 		},
 		{
@@ -378,13 +638,71 @@
 			"width":260,
 			"height":60
 		},
+		{"id":"0e9f8e8b589fac78","type":"text","text":"增强","x":215,"y":1050,"width":155,"height":50},
+		{"id":"68b4c14283f7092f","type":"text","text":"- 增强\n\t- **Content Protection**（增强，🔗导入反向链接、支持出链）\n\t- **Advanced Canvas**（增强图形）\n\t- 第三方白板：**Excalidraw**（顺滑）\n\t- **Tag Wrangler**\n\t- 标题自动编号：**Number Headings**\n\t\t- 第三方大纲：**Quiet Outline**","x":575,"y":1100,"width":500,"height":260},
+		{"id":"c13ad4c1aead60e2","type":"text","text":"视频笔记：**Media Extended**","x":575,"y":1440,"width":345,"height":50},
+		{"id":"4899dd1e97fba414","type":"text","text":"**Commander**触屏快捷方式","x":215,"y":-190,"width":340,"height":50},
+		{"id":"15f9497305db0e79","type":"text","text":"- 任务-鱼先生4个\n\t- 任务提取：**tasks**(搭配**Day Planner**)\n\t- 载入代码：**Meta Bind**\n\t- 面板美化：**admonition**\n\t- 任务分栏：**columns**","x":575,"y":360,"width":520,"height":260},
+		{"id":"12663ebc77baedc7","type":"text","text":"- 模板：**Templater**\n- 表单：**Form Flow**、**QuickAdd**\n- AI:**Copilot**\n- 粘贴网址，提取网址链接标题：**Auto Link Title**\n- 格式化双链和图片大小：**Linter**","x":575,"y":710,"width":500,"height":320},
+		{"id":"8bc9b3fd31156bee","type":"text","text":"- 日程安排：**Day Planner**\n\t- 日记插入时间：**TimeStamper**\n\t- 执行任务计时：**Text Block Timer**","x":200,"y":120,"width":500,"height":160},
+		{"id":"d1c833b1bf039d74","type":"text","text":"面板美化","x":-160,"y":-75,"width":180,"height":50},
+		{"id":"5dac0b8a7604e6ec","type":"text","text":"手机版命令面板","x":-160,"y":-200,"width":250,"height":60},
+		{"id":"f757f95281e0a0e8","type":"text","text":"**LifeOS Pro**","x":200,"y":31,"width":185,"height":50},
+		{"id":"2dc0cef1f7d535cc","type":"text","text":"任务四象限/优先级","x":215,"y":465,"width":280,"height":50},
+		{"id":"47e49fd7dbf3a924","type":"text","text":"护眼主题加粗插件：Shiba Inu主题搭配**Style Settings**插件","x":200,"y":-75,"width":680,"height":50},
 		{
-			"id":"86ac33ad12d3d65b",
+			"id":"faf524146151e5c7",
 			"type":"text",
-			"text":"完成日期",
+			"text":"🧩 属性🟩",
 			"styleAttributes":{"textAlign":"center"},
-			"x":2494,
-			"y":1747,
+			"x":-520,
+			"y":118,
+			"width":250,
+			"height":60
+		},
+		{"id":"7f85284472b1270b","type":"text","text":"汇总","x":-160,"y":430,"width":125,"height":60},
+		{"id":"70c97298409007d7","type":"text","text":"- 数据汇总：\n\t- 文件：\n\t\t- **Components**\n\t- 全能：**Dataview**\n\t\t- **Charts**（视图）\n\t\t- **JS Engine**（执行 JavaScript 代码）","x":173,"y":1920,"width":902,"height":320},
+		{"id":"66cc2ca3cceed6b1","type":"text","text":"日历面板","x":-160,"y":31,"width":180,"height":50},
+		{"id":"a9e4f6eef264cbc3","type":"text","text":"笔记前：编辑","x":-160,"y":700,"width":250,"height":60},
+		{"id":"22b9dfecc1118b95","type":"text","text":"日程安排","x":-160,"y":120,"width":180,"height":50},
+		{"id":"33b1084ae97f02c7","type":"text","text":"- 电脑缺失：\n\t- 点击图片放大：**Image Toolkit**","x":173,"y":2340,"width":467,"height":100},
+		{
+			"id":"63f2d8ff949bdd28",
+			"type":"text",
+			"text":"🧩 出链🟨",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-520,
+			"y":253,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"2b177dffacf6a3b4",
+			"type":"text",
+			"text":"🧩 反向链接🟨",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-520,
+			"y":193,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"20f31620aae9c80d",
+			"type":"text",
+			"text":"🧩 关系图谱🟨",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-520,
+			"y":313,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"67c99eba6f7468f8",
+			"type":"text",
+			"text":"🧩 字数统计",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-520,
+			"y":390,
 			"width":250,
 			"height":60
 		}
@@ -473,6 +791,162 @@
 			"toNode":"163c4faf049e66bf",
 			"toSide":"right",
 			"label":"属性：支援项目"
+		},
+		{
+			"id":"cf71fa07b009b2cc",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"d5c52a364c965399",
+			"fromSide":"bottom",
+			"toNode":"a68c347736e54e17",
+			"toSide":"right"
+		},
+		{
+			"id":"236e8bcbd3dfafe6",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"d5c52a364c965399",
+			"fromSide":"bottom",
+			"toNode":"6cd7725c0f51e6ce",
+			"toSide":"left"
+		},
+		{
+			"id":"fc81aac0456bfe16",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"9e4ff9fa02317a67",
+			"fromSide":"right",
+			"toNode":"6cd7725c0f51e6ce",
+			"toSide":"bottom"
+		},
+		{
+			"id":"4c7a19c913176b2c",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"db13714490bbff65",
+			"fromSide":"left",
+			"toNode":"6cd7725c0f51e6ce",
+			"toSide":"bottom"
+		},
+		{
+			"id":"2646242768b54ab7",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"63f2d8ff949bdd28",
+			"fromSide":"left",
+			"toNode":"6cd7725c0f51e6ce",
+			"toSide":"bottom"
+		},
+		{
+			"id":"7eff642ae7b9883d",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"b2ee03be4393885c",
+			"fromSide":"top",
+			"toNode":"6cd7725c0f51e6ce",
+			"toSide":"right"
+		},
+		{
+			"id":"3b51f306225f1d65",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"2b177dffacf6a3b4",
+			"fromSide":"left",
+			"toNode":"6cd7725c0f51e6ce",
+			"toSide":"bottom"
+		},
+		{
+			"id":"41b76882aeea4c60",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"35d2577022376ba9",
+			"fromSide":"left",
+			"toNode":"6cd7725c0f51e6ce",
+			"toSide":"bottom"
+		},
+		{
+			"id":"0f98a257ed6456dd",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"a5a69d9634ecdbcd",
+			"fromSide":"left",
+			"toNode":"6cd7725c0f51e6ce",
+			"toSide":"bottom"
+		},
+		{
+			"id":"b04fd2942a7837dd",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"faf524146151e5c7",
+			"fromSide":"top",
+			"toNode":"6cd7725c0f51e6ce",
+			"toSide":"right"
+		},
+		{
+			"id":"55c5028a02244a65",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"20f31620aae9c80d",
+			"fromSide":"left",
+			"toNode":"6cd7725c0f51e6ce",
+			"toSide":"bottom"
+		},
+		{
+			"id":"a95ea650ae5eb03b",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"cf531e73e31f5302",
+			"fromSide":"right",
+			"toNode":"6cd7725c0f51e6ce",
+			"toSide":"bottom"
+		},
+		{
+			"id":"98ad8d737c1b312a",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"67c99eba6f7468f8",
+			"fromSide":"left",
+			"toNode":"6cd7725c0f51e6ce",
+			"toSide":"bottom"
+		},
+		{
+			"id":"8699af69d800834d",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"532548c8cc744136",
+			"fromSide":"right",
+			"toNode":"6cd7725c0f51e6ce",
+			"toSide":"bottom"
+		},
+		{
+			"id":"2cf6e006a3e9edf9",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"20f31620aae9c80d",
+			"fromSide":"left",
+			"toNode":"cb7c68c31cd03570",
+			"toSide":"top"
+		},
+		{
+			"id":"b097e69a05017623",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"64c7e8ab75c54375",
+			"fromSide":"right",
+			"toNode":"6cd7725c0f51e6ce",
+			"toSide":"right"
 		}
 	],
 	"metadata":{
